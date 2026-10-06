@@ -1,5 +1,7 @@
 # RK Screen
 
+**Windows 11 uyumluluk notu (6 Ekim 2026):** Mevcut Beta 1 imzasızdır. Akıllı Uygulama Denetimi uygulamanın açılmasını tamamen engelleyebilir; imzalı paket henüz yayımlanmadı. Yeniden indirme veya güvenli mod bu engeli çözmez. Windows güvenlik korumalarını açık bırakın.
+
 Windows için ekran paylaşımı ve kullanıcı onayıyla uzaktan destek uygulaması.
 
 **Beta 1 · 1.0.0-beta.1 · Windows x64 · Taşınabilir**
