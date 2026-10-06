@@ -2,16 +2,16 @@
 
 Windows için ekran paylaşımı ve kullanıcı onayıyla uzaktan destek uygulaması.
 
-**Beta 1 · 1.0.0-beta.1 · Windows x64 · Taşınabilir**
+**Beta 1 · 1.0.0-beta.1 · Windows x64 · Kurulum**
 
 **Windows 11 uyumluluk notu (6 Ekim 2026):** Mevcut Beta 1 imzasızdır. Akıllı Uygulama Denetimi uygulamanın açılmasını tamamen engelleyebilir; imzalı paket henüz yayımlanmadı. Yeniden indirme veya güvenli mod bu engeli çözmez. Windows güvenlik korumalarını açık bırakın.
 
-[Taşınabilir sürümü indir](https://github.com/meruem-sma/rk-screen-downloads/releases/download/v1.0.0-beta.1/RK-Screen-Portable-1.0.0-beta.1.exe) · [Sürüm notları](https://github.com/meruem-sma/rk-screen-downloads/releases/tag/v1.0.0-beta.1) · [Web sitesi](https://rkscreen.com.tr)
+[Windows kurulumunu indir](https://github.com/meruem-sma/rk-screen-downloads/releases/download/v1.0.0-beta.1/RK-Screen-Setup-1.0.0-beta.1.exe) · [Sürüm notları](https://github.com/meruem-sma/rk-screen-downloads/releases/tag/v1.0.0-beta.1) · [Web sitesi](https://rkscreen.com.tr)
 
 ## Kullanım
 
-1. Releases bölümünden taşınabilir EXE dosyasını iki Windows bilgisayarına indirin. Kurulum paketi gerektirmez.
-2. Uygulamayı açın; ekranını paylaşacak kişinin cihaz kimliğini bağlantı alanına girin.
+1. Releases bölümünden setup dosyasını iki Windows bilgisayarına indirin ve kurulum adımlarını tamamlayın.
+2. Masaüstündeki RK Screen kısayolunu açın; ekranını paylaşacak kişinin cihaz kimliğini bağlantı alanına girin.
 3. Ekranını paylaşan kişi isteği ve izinleri onayladığında oturum başlar.
 4. İşiniz bittiğinde uygulamadaki bağlantıyı bitirme düğmesini kullanın.
 
@@ -36,7 +36,7 @@ Bağlantı kurulumu genel PeerJS/STUN/TURN hizmetlerine bağlıdır. Özel bağl
 Yayınla birlikte verilen `SHA256SUMS.txt` dosyası EXE'nin SHA-256 değerini içerir. PowerShell'de indirdiğiniz dosyayı kontrol edebilirsiniz:
 
 ```powershell
-Get-FileHash .\RK-Screen-Portable-1.0.0-beta.1.exe -Algorithm SHA256
+Get-FileHash .\RK-Screen-Setup-1.0.0-beta.1.exe -Algorithm SHA256
 ```
 
 ## Bu depo hakkında
@@ -45,6 +45,6 @@ Bu depo yalnızca yayın dosyaları ve sürüm açıklamaları içindir. Uygulam
 
 ### Code signing policy
 
-[Kod imzalama politikası](https://github.com/meruem-sma/rk-screen/blob/main/CODE-SIGNING-POLICY.md) ve [gizlilik bilgileri](https://github.com/meruem-sma/rk-screen/blob/main/PRIVACY.md) kaynak deposundadır. Ücretsiz SignPath Foundation yolu için hazırlık yapıldı; başvuru kabulü veya imzalı yeni EXE henüz yoktur. Kaynakların açılması mevcut Beta 1 dosyasının imza durumunu değiştirmez.
+[Kod imzalama politikası](https://github.com/meruem-sma/rk-screen/blob/main/CODE-SIGNING-POLICY.md) ve [gizlilik bilgileri](https://github.com/meruem-sma/rk-screen/blob/main/PRIVACY.md) kaynak deposundadır. Ücretsiz SignPath Foundation yolu için hazırlık yapıldı; başvuru kabulü veya imzalı yeni EXE henüz yoktur. 6 Ekim 2026'da dağıtım setup olarak yenilendi; paket hâlâ imzasızdır. Kurulum biçimini değiştirmek Windows güven değerlendirmesini kaldırmaz.
 
 Hata bildirirken uygulama sürümünü, Windows sürümünü ve sorunu yeniden oluşturma adımlarını yazın. Özel dosyalarınızı, cihaz kimliğinizi veya oturum bilgilerinizi herkese açık paylaşımlara eklemeyin.
