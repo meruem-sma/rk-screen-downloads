@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0-beta.1",
+  "stage": "Beta 1",
+  "files": {
+    "portable": {
+      "name": "RK-Screen-Portable-1.0.0-beta.1.exe",
+      "bytes": 116737442,
+      "sha256": "de1e5bf961153e61955004cda8d358fce17ab14a91aa296f7d7658ca605c5356",
+      "url": "https://github.com/meruem-sma/rk-screen-downloads/releases/download/v1.0.0-beta.1/RK-Screen-Portable-1.0.0-beta.1.exe"
+    }
+  },
+  "signed": false
+}
