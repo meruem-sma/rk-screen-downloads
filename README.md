@@ -1,10 +1,10 @@
 # RK Screen
 
-**Windows 11 uyumluluk notu (6 Ekim 2026):** Mevcut Beta 1 imzasızdır. Akıllı Uygulama Denetimi uygulamanın açılmasını tamamen engelleyebilir; imzalı paket henüz yayımlanmadı. Yeniden indirme veya güvenli mod bu engeli çözmez. Windows güvenlik korumalarını açık bırakın.
-
 Windows için ekran paylaşımı ve kullanıcı onayıyla uzaktan destek uygulaması.
 
 **Beta 1 · 1.0.0-beta.1 · Windows x64 · Taşınabilir**
+
+**Windows 11 uyumluluk notu (6 Ekim 2026):** Mevcut Beta 1 imzasızdır. Akıllı Uygulama Denetimi uygulamanın açılmasını tamamen engelleyebilir; imzalı paket henüz yayımlanmadı. Yeniden indirme veya güvenli mod bu engeli çözmez. Windows güvenlik korumalarını açık bırakın.
 
 [Taşınabilir sürümü indir](https://github.com/meruem-sma/rk-screen-downloads/releases/download/v1.0.0-beta.1/RK-Screen-Portable-1.0.0-beta.1.exe) · [Sürüm notları](https://github.com/meruem-sma/rk-screen-downloads/releases/tag/v1.0.0-beta.1) · [Web sitesi](https://rkscreen.com.tr)
 
@@ -41,6 +41,10 @@ Get-FileHash .\RK-Screen-Portable-1.0.0-beta.1.exe -Algorithm SHA256
 
 ## Bu depo hakkında
 
-Bu depo yalnızca yayın dosyaları ve sürüm açıklamaları içindir; uygulamanın kaynak kodunu içermez. Açık kaynak lisansı verilmemiştir. GitHub'ın otomatik oluşturduğu “Source code” arşivleri yalnızca bu deponun belgelerini içerir; uygulamayı çalıştırmak için EXE dosyasını indirin.
+Bu depo yalnızca yayın dosyaları ve sürüm açıklamaları içindir. Uygulamanın güncel kaynakları [MIT lisansıyla ayrı kaynak deposunda](https://github.com/meruem-sma/rk-screen) yayımlanır. GitHub'ın bu indirme deposunda otomatik oluşturduğu “Source code” arşivleri yalnızca belgeleri içerir.
+
+### Code signing policy
+
+[Kod imzalama politikası](https://github.com/meruem-sma/rk-screen/blob/main/CODE-SIGNING-POLICY.md) ve [gizlilik bilgileri](https://github.com/meruem-sma/rk-screen/blob/main/PRIVACY.md) kaynak deposundadır. Ücretsiz SignPath Foundation yolu için hazırlık yapıldı; başvuru kabulü veya imzalı yeni EXE henüz yoktur. Kaynakların açılması mevcut Beta 1 dosyasının imza durumunu değiştirmez.
 
 Hata bildirirken uygulama sürümünü, Windows sürümünü ve sorunu yeniden oluşturma adımlarını yazın. Özel dosyalarınızı, cihaz kimliğinizi veya oturum bilgilerinizi herkese açık paylaşımlara eklemeyin.
