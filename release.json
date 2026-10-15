@@ -1,12 +1,13 @@
 {
   "version": "1.0.0-beta.1",
+  "build": "20261015.1",
   "stage": "Beta 1",
   "signed": false,
   "files": {
     "setup": {
       "name": "RK-Screen-Setup-1.0.0-beta.1.exe",
-      "bytes": 112538420,
-      "sha256": "2bf6c99815c54e6293f74a065579c71e0810e503d33acda931d639790e167e25",
+      "bytes": 112636396,
+      "sha256": "ad97892c4e161b941f5ae6d896673382da32c4a938e259777536d017aa0d3fac",
       "url": "https://github.com/meruem-sma/rk-screen-downloads/releases/download/v1.0.0-beta.1/RK-Screen-Setup-1.0.0-beta.1.exe"
     }
   }
