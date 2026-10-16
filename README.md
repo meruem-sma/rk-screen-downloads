@@ -2,7 +2,9 @@
 
 Windows için ekran paylaşımı ve kullanıcı onayıyla uzaktan destek uygulaması.
 
-**Beta 1 · 1.0.0-beta.1 · Windows x64 · Kurulum**
+**Beta 1 · 1.0.0-beta.1 · Yapı 20261016.1 · Windows x64 · Kurulum**
+
+İki bilgisayara da yeni setup’ı kurun. Bağlantı biçimi değiştiği için eski Beta 1 yapılarıyla karışık kullanım desteklenmez.
 
 **Windows 11 uyumluluk notu (6 Ekim 2026):** Mevcut Beta 1 imzasızdır. Akıllı Uygulama Denetimi uygulamanın açılmasını tamamen engelleyebilir; imzalı paket henüz yayımlanmadı. Yeniden indirme veya güvenli mod bu engeli çözmez. Windows güvenlik korumalarını açık bırakın.
 
@@ -45,6 +47,6 @@ Bu depo yalnızca yayın dosyaları ve sürüm açıklamaları içindir. Uygulam
 
 ### Code signing policy
 
-[Kod imzalama politikası](https://github.com/meruem-sma/rk-screen/blob/main/CODE-SIGNING-POLICY.md) ve [gizlilik bilgileri](https://github.com/meruem-sma/rk-screen/blob/main/PRIVACY.md) kaynak deposundadır. 15 Ekim 2026 güncel yapı **20261015.3**; bakım sorumlusunun kararıyla ücretsiz imzasız setup dağıtımı sürer. Ücretli hizmet veya başvuru yapılmaz. Kurulum biçimini değiştirmek Windows güven değerlendirmesini kaldırmaz.
+[Kod imzalama politikası](https://github.com/meruem-sma/rk-screen/blob/main/CODE-SIGNING-POLICY.md) ve [gizlilik bilgileri](https://github.com/meruem-sma/rk-screen/blob/main/PRIVACY.md) kaynak deposundadır. 16 Ekim 2026 güncel yapı **20261016.1**; bakım sorumlusunun kararıyla ücretsiz imzasız setup dağıtımı sürer. Ücretli hizmet veya başvuru yapılmaz. Kurulum biçimini değiştirmek Windows güven değerlendirmesini kaldırmaz.
 
 Hata bildirirken uygulama sürümünü, Windows sürümünü ve sorunu yeniden oluşturma adımlarını yazın. Özel dosyalarınızı, cihaz kimliğinizi veya oturum bilgilerinizi herkese açık paylaşımlara eklemeyin.
